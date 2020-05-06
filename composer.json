@@ -5,7 +5,7 @@
     "require": {
         "laravel/socialite": "^3.0",
         "lcobucci/jwt": "^3.3",
-        "socialiteproviders/manager": "^3.0",
+        "socialiteproviders/manager": "3.3.1",
         "firebase/php-jwt": "^5.2"
     },
     "license": "MIT",
