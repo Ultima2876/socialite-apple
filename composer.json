@@ -1,9 +1,9 @@
 {
-    "name": "ahilmurugesan/socialite-apple",
+    "name": "ultima2876/socialite-apple",
     "description": "Apple Socialite Login Provider with in-built Client Secret Generator and Manager",
     "type": "library",
     "require": {
-        "laravel/socialite": "~3.0|^4.0",
+        "laravel/socialite": "^3.0",
         "lcobucci/jwt": "^3.3",
         "socialiteproviders/manager": "^3.0",
         "firebase/php-jwt": "^5.2"
@@ -13,6 +13,10 @@
         {
             "name": "Ahilan",
             "email": "ahilmurugesan@gmail.com"
+        }
+        {
+        	"name": "Ultima2876"
+        	"email": "xxx@xxx.org"
         }
     ],
     "minimum-stability": "dev",
