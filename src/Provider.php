@@ -185,7 +185,7 @@ class Provider extends AbstractProvider implements ProviderInterface
         if (request()->filled("user")) {
             $userRequest = json_decode(request("user"), true);
 
-            if (array_key_exists("name", $userRequest)) {
+            if (!empty($userRequest) && array_key_exists("name", $userRequest)) {
                 $user["name"] = $userRequest["name"];
                 $fullName = trim(
                     ($user["name"]['firstName'] ?? "")
